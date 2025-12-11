@@ -1,14 +1,14 @@
-# NovelForge
+# CoAuthor
 
 An agentic, native Apple novel-writing studio that lets you describe a story in broad strokes, optionally add a chapter-wise structure, and then have AI draft the novel chapter-by-chapter — while preserving continuity, tone, and your personal style choices.
 
-> **Note:** “NovelForge” is a working name. Feel free to rename the app; the architecture and AGENTS remain valid.
+> **Note:** “CoAuthor” is a working name. Feel free to rename the app; the architecture and AGENTS remain valid.
 
 ---
 
 ## 1. High-Level Concept
 
-NovelForge is a **multi-agent, AI-assisted novel writing app** built entirely with **native Apple technologies** (SwiftUI, SwiftData/Core Data, CloudKit, URLSession, etc.).
+CoAuthor is a **multi-agent, AI-assisted novel writing app** built entirely with **native Apple technologies** (SwiftUI, SwiftData/Core Data, CloudKit, URLSession, etc.).
 
 You provide:
 
@@ -68,7 +68,7 @@ The app then:
 
 ### 2.3 Context Management & Story Bible
 
-To preserve continuity, NovelForge maintains:
+To preserve continuity, CoAuthor maintains:
 
 - A **Story Bible**:
   - Characters (traits, history, relationships)
@@ -90,7 +90,7 @@ You can:
 
 ### 2.4 Author Style Presets (Top 50 Authors)
 
-NovelForge offers **style presets** inspired by the **writing behaviours of top authors across genres** (not direct imitation / plagiarism):
+CoAuthor offers **style presets** inspired by the **writing behaviours of top authors across genres** (not direct imitation / plagiarism):
 
 - Preset attributes:
   - Sentence length & rhythm
@@ -254,7 +254,7 @@ Other:
 
 ## 3. Architecture Overview
 
-NovelForge is built using a **multi-agent orchestration model** internally:
+CoAuthor is built using a **multi-agent orchestration model** internally:
 
 - **Conductor**:
   - Orchestrates the agents for planning, drafting, revising, and summarizing.
@@ -294,7 +294,7 @@ Each agent:
 
 2. **Clone & open**
    - Open the Xcode project/workspace.
-   - Select the `NovelForge` scheme.
+   - Select the `CoAuthor` scheme.
 
 3. **Configure AI providers**
    - In app settings, add API keys for:
@@ -325,5 +325,4 @@ Each agent:
 
 ## 7. License
 
-_TBD_ — choose an appropriate open-source or proprietary license as needed.
-
+*TBD* — choose an appropriate open-source or proprietary license as needed.

@@ -1,6 +1,6 @@
-# AGENTS.md – NovelForge
+# AGENTS.md – CoAuthor
 
-This document describes the **agentic architecture** of NovelForge – the roles, responsibilities, and collaboration patterns of the agents that together implement the app.
+This document describes the **agentic architecture** of CoAuthor – the roles, responsibilities, and collaboration patterns of the agents that together implement the app.
 
 The intent is to give any future AI assistant (or human developer) a precise playbook for extending or maintaining the system.
 
@@ -496,4 +496,4 @@ Each section below describes an agent’s purpose, inputs, outputs, and success 
 
 ---
 
-With this agentic blueprint, NovelForge can evolve from a single-author prototype into a sophisticated AI-powered novelist’s studio while remaining understandable and maintainable by both human developers and AI assistants.
+With this agentic blueprint, CoAuthor can evolve from a single-author prototype into a sophisticated AI-powered novelist’s studio while remaining understandable and maintainable by both human developers and AI assistants.
